@@ -1,6 +1,6 @@
 # Day-3-task
 
-##1. 1st Task
+## 1. 1st Task
    How to compare two different objects without no order
    ```
    const _ = require('lodash');
@@ -14,7 +14,7 @@
     };
     console.log(_.isEqual(obj1, obj2))
 ```
-##2. 2nd Task
+## 2. 2nd Task
 ```
   const URL = "https://restcountries.com/v3.1/independent?status=true&fields=flags";
 
@@ -35,7 +35,7 @@ xhr.onreadystatechange = function () {
         });
     }
 ```
-##3. 3rd Task
+## 3. 3rd Task
    ```
    const URL = "https://restcountries.com/v3.1/all";
 
